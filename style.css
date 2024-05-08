@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color:hsl(35, 64%, 91%) ;
+}
+
+.section1{
+    border: solid 1px;
+    margin:25% ;
+    border-radius: 20px;
+    background-color: white;
+    padding:30px ;
+    font-family: 'YoungSerif';
+}
+img{
+    object-fit: contain;
+    margin:20px;
+    max-width:93%;
+    align-items:center ;
+    border-radius: 20px;
+}
+#simple{
+    font-style: bold;
+    font-family: 'YoungSerif';
+}
+.div1{
+    background-color: hsl(307, 47%, 96%);
+    margin-right: 40px;
+    padding:10px 20px;
+    border-radius: 20px;
+    font-family: 'YoungSerif';
+
+
+}
+.Preparation{
+    
+    font-weight: 600;
+    color: purple;
+}
+.Ingredients{
+    color: brown;
+}
+.Instraction{
+    color: brown;
+}
+.nutrition{
+    color: brown;
+}
+.ol{
+    list-style-type: decimal rgb(239, 7, 7);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:2px ;
+    padding:30px  ;
+    
+ 
+}
+table tr td{
+    border-bottom: 1px solid rgb(76, 70, 173);
+    
+}
+.colr{
+    color: brown;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'YoungSerif';
+    src:url(assets\fonts\outfit\OFL.txt),
+     url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
